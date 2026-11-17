@@ -66,8 +66,8 @@ body::before{
   content:"";position:absolute;left:0;right:0;bottom:-2px;height:120px;z-index:6;pointer-events:none;
   background:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNDQwIDEyMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PHBhdGggZD0iTTAsNzIgQzI0MCwxMTggNDYwLDEyIDcyMCw0MiBDOTgwLDcyIDEyMDAsMTIwIDE0NDAsNTYgTDE0NDAsMTIwIEwwLDEyMCBaIiBmaWxsPSIjZjNmN2ZiIi8+PC9zdmc+") center/100% 100% no-repeat;
 }
-#page-header.full_page #scroll-down{bottom:86px!important;z-index:7;}
-#page-header.full_page #scroll-down i{color:#fff!important;font-size:1.6rem;}
+#page-header.full_page #scroll-down{bottom:150px!important;z-index:9;}
+#page-header.full_page #scroll-down i{color:#12988e!important;font-size:1.9rem;filter:drop-shadow(0 1px 3px rgba(255,255,255,.95)) drop-shadow(0 6px 14px rgba(20,70,65,.35));}
 
 /* ---------------- Layout ---------------- */
 #content-inner.layout{
