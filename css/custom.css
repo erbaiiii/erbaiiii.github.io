@@ -64,7 +64,7 @@ body::before{
 /* wavy bottom */
 #page-header.full_page::after{
   content:"";position:absolute;left:0;right:0;bottom:-2px;height:120px;z-index:6;pointer-events:none;
-  background:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 120' preserveAspectRatio='none'><path d='M0,72 C240,118 460,12 720,42 C980,72 1200,120 1440,56 L1440,120 L0,120 Z' fill='%23f3f7fb'/></svg>") center/100% 100% no-repeat;
+  background:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNDQwIDEyMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PHBhdGggZD0iTTAsNzIgQzI0MCwxMTggNDYwLDEyIDcyMCw0MiBDOTgwLDcyIDEyMDAsMTIwIDE0NDAsNTYgTDE0NDAsMTIwIEwwLDEyMCBaIiBmaWxsPSIjZjNmN2ZiIi8+PC9zdmc+") center/100% 100% no-repeat;
 }
 #page-header.full_page #scroll-down{bottom:86px!important;z-index:7;}
 #page-header.full_page #scroll-down i{color:#fff!important;font-size:1.6rem;}
